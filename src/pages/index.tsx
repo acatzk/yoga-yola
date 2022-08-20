@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 
 import Hero from '~/components/Hero'
 import Layout from '~/layouts/Layout'
+import Cards from '~/components/Cards'
 
 const Index: NextPage = (): JSX.Element => {
   return (
@@ -11,6 +12,7 @@ const Index: NextPage = (): JSX.Element => {
         <title>Yoga</title>
       </Head>
       <Hero />
+      <Cards />
       <div className="h-[2000px]"></div>
     </Layout>
   )
