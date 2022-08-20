@@ -2,6 +2,7 @@ import Aos from 'aos'
 import { useEffect } from 'react'
 import type { AppProps } from 'next/app'
 
+import '~/styles/video.scss'
 import '~/styles/globals.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
