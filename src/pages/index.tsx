@@ -1,10 +1,18 @@
+import Head from 'next/head'
 import type { NextPage } from 'next'
 
-const Index: NextPage = () => {
+import Hero from '~/components/Hero'
+import Layout from '~/layouts/Layout'
+
+const Index: NextPage = (): JSX.Element => {
   return (
-    <div>
-      <p className="text-2xl font-bold text-blue-500">This is the title</p>
-    </div>
+    <Layout metaTitle="Yoga">
+      <Head>
+        <title>Yoga</title>
+      </Head>
+      <Hero />
+      <div className="h-[2000px]"></div>
+    </Layout>
   )
 }
 
