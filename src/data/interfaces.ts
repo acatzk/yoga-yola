@@ -5,3 +5,11 @@ export interface IFact {
   title: string
   desc: string
 }
+
+export interface ICourse {
+  image: string
+  title: string
+  desc: string
+  link: string
+  delay: number
+}

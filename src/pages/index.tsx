@@ -5,6 +5,7 @@ import Hero from '~/components/Hero'
 import Layout from '~/layouts/Layout'
 import Cards from '~/components/Cards'
 import Facts from '~/components/Facts'
+import Courses from '~/components/Courses'
 import Features from '~/components/Features'
 
 const Index: NextPage = (): JSX.Element => {
@@ -17,6 +18,7 @@ const Index: NextPage = (): JSX.Element => {
       <Cards />
       <Facts />
       <Features />
+      <Courses />
       <div className="h-[2000px]"></div>
     </Layout>
   )

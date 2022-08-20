@@ -1,4 +1,4 @@
-import { IFact } from './interfaces'
+import { ICourse, IFact } from './interfaces'
 
 export const facts: IFact[] = [
   {
@@ -29,4 +29,28 @@ export const facts: IFact[] = [
     title: 'Monthly Classes',
     desc: 'Yoga is a physical, mental and spritual practice discipline. We provide 24+ classes monthly.',
   },
+]
+
+export const courses: ICourse[] = [
+  {
+    image: 'img/courses/course-1.png',
+    title: 'Resortive Yoga Training & Immersion',
+    desc: 'Here is some tips for new job seekars who want to get a dream job and want to shine in his career.',
+    link: 'Get started',
+    delay: 600,
+  },
+  {
+    image: 'img/courses/course-2.png',
+    title: 'Resortive Yoga Training & Immersion',
+    desc: 'Here is some tips for new job seekars who want to get a dream job and want to shine in his career.',
+    link: 'Get started',
+    delay: 800,
+  },
+  {
+    image: 'img/courses/course-3.png',
+    title: 'Resortive Yoga Training & Immersion',
+    desc: 'Here is some tips for new job seekars who want to get a dream job and want to shine in his career.',
+    link: 'Get started',
+    delay: 900,
+  }
 ]
