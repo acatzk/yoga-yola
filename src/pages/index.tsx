@@ -4,6 +4,7 @@ import type { NextPage } from 'next'
 import Hero from '~/components/Hero'
 import Layout from '~/layouts/Layout'
 import Cards from '~/components/Cards'
+import Facts from '~/components/Facts'
 
 const Index: NextPage = (): JSX.Element => {
   return (
@@ -13,6 +14,7 @@ const Index: NextPage = (): JSX.Element => {
       </Head>
       <Hero />
       <Cards />
+      <Facts />
       <div className="h-[2000px]"></div>
     </Layout>
   )
