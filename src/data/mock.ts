@@ -1,4 +1,6 @@
-import { ICourse, IFact } from './interfaces'
+import { BsCheck, BsChevronRight } from 'react-icons/bs'
+
+import { ICourse, IFact, IPrice } from './interfaces'
 
 export const facts: IFact[] = [
   {
@@ -53,4 +55,78 @@ export const courses: ICourse[] = [
     link: 'Get started',
     delay: 900,
   }
+]
+
+export const pricing: IPrice[] = [
+  {
+    title: 'Single yoga class',
+    price: 15,
+    list: [
+      {
+        Icon: BsCheck,
+        name: 'Pay as you go',
+      },
+      {
+        Icon: BsCheck,
+        name: 'Perfect for non-residence',
+      },
+      {
+        Icon: BsCheck,
+        name: 'Acces to all classes',
+      },
+    ],
+    buttonText: 'Book now',
+    ButtonIcon: BsChevronRight,
+    delay: 600,
+  },
+  {
+    title: 'Single yoga class',
+    price: 60,
+    list: [
+      {
+        Icon: BsCheck,
+        name: 'Pay as you go',
+      },
+      {
+        Icon: BsCheck,
+        name: 'Perfect for non-residence',
+      },
+      {
+        Icon: BsCheck,
+        name: 'Acces to all classes',
+      },
+      {
+        Icon: BsCheck,
+        name: 'Acces to all mentors',
+      },
+    ],
+    buttonText: 'Book now',
+    ButtonIcon: BsChevronRight,
+    delay: 800,
+  },
+  {
+    title: 'Single yoga class',
+    price: 150,
+    list: [
+      {
+        Icon: BsCheck,
+        name: 'Pay as you go',
+      },
+      {
+        Icon: BsCheck,
+        name: 'Perfect for non-residence',
+      },
+      {
+        Icon: BsCheck,
+        name: 'Acces to all classes',
+      },
+      {
+        Icon: BsCheck,
+        name: 'Acces to all mentors',
+      },
+    ],
+    buttonText: 'Book now',
+    ButtonIcon: BsChevronRight,
+    delay: 900,
+  },
 ]
