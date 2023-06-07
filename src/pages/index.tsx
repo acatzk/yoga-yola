@@ -8,6 +8,7 @@ import Cards from '~/components/Cards'
 import Facts from '~/components/Facts'
 import Courses from '~/components/Courses'
 import Pricing from '~/components/Pricing'
+import Contact from '~/components/Contact'
 import Features from '~/components/Features'
 import NewsLetter from '~/components/NewsLetter'
 
@@ -24,6 +25,7 @@ const Index: NextPage = (): JSX.Element => {
       <Courses />
       <Pricing />
       <NewsLetter />
+      <Contact />
     </Layout>
   )
 }
