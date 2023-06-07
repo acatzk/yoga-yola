@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import type { NextPage } from 'next'
 
@@ -8,6 +9,7 @@ import Facts from '~/components/Facts'
 import Courses from '~/components/Courses'
 import Pricing from '~/components/Pricing'
 import Features from '~/components/Features'
+import NewsLetter from '~/components/NewsLetter'
 
 const Index: NextPage = (): JSX.Element => {
   return (
@@ -21,7 +23,7 @@ const Index: NextPage = (): JSX.Element => {
       <Features />
       <Courses />
       <Pricing />
-      <div className="h-[2000px]"></div>
+      <NewsLetter />
     </Layout>
   )
 }

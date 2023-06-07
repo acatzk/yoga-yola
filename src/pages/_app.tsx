@@ -1,11 +1,12 @@
 import Aos from 'aos'
+import React from 'react'
 import { useEffect } from 'react'
 import type { AppProps } from 'next/app'
 
 import '~/styles/video.scss'
 import '~/styles/globals.css'
 
-function MyApp({ Component, pageProps }: AppProps) {
+const App = ({ Component, pageProps }: AppProps): JSX.Element => {
   useEffect(() => {
     Aos.init({
       duration: 1800,
@@ -16,4 +17,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default App
