@@ -6,9 +6,9 @@ const Contact: FC<Props> = (): JSX.Element => {
   return (
     <section className="section-sm lg:pt-[250px]">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row lg:gap-x-[74px] bg-contact bg-no-repeat bg-cover min-h-[600px]">
+        <div className="flex min-h-[600px] flex-col bg-contact bg-cover bg-no-repeat lg:flex-row lg:gap-x-[74px]">
           {/* text */}
-          <div className="flex-1 flex-col justify-center pl-8 flex">
+          <div className="flex flex-1 flex-col justify-center pl-8">
             <h2 className="h2 mb-3lg:mb-7">Get in Touch With Us for Yoga Course.</h2>
             <p className="mb-7 lg:mb-0">
               Get in touch with use for any kind of help. We are here to give you the best and also
@@ -16,7 +16,7 @@ const Contact: FC<Props> = (): JSX.Element => {
             </p>
           </div>
           {/* form */}
-          <form className="flex-1 bg-white text-white shadow-primary rounded-[20px] p-5 flex flex-col gap-y-5 max-h-[600px] lg:-mt-20">
+          <form className="flex max-h-[600px] flex-1 flex-col gap-y-5 rounded-[20px] bg-white p-5 text-white shadow-primary lg:-mt-20">
             <input
               className="form-control"
               placeholder="First name"
@@ -43,7 +43,7 @@ const Contact: FC<Props> = (): JSX.Element => {
               id=""
               cols={30}
               rows={10}
-              className="form-control py-5 h-[165px] resize-none"
+              className="form-control h-[165px] resize-none py-5"
               placeholder="Message"
             ></textarea>
             <button className="btn btn-lg bg-orange">Send message</button>

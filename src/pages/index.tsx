@@ -6,6 +6,7 @@ import Hero from '~/components/Hero'
 import Layout from '~/layouts/Layout'
 import Cards from '~/components/Cards'
 import Facts from '~/components/Facts'
+import Footer from '~/components/Footer'
 import Courses from '~/components/Courses'
 import Pricing from '~/components/Pricing'
 import Contact from '~/components/Contact'
@@ -26,6 +27,7 @@ const Index: NextPage = (): JSX.Element => {
       <Pricing />
       <NewsLetter />
       <Contact />
+      <Footer />
     </Layout>
   )
 }
