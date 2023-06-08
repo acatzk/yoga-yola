@@ -7,7 +7,7 @@ const Footer: FC<Props> = (): JSX.Element => {
   const logo = '/img/logo.png'
 
   return (
-    <footer className="pb-[70px]">
+    <footer className="pb-[70px]" data-aos="fade-up" data-aos-offset="0">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between gap-y-5 lg:flex-row">
           {/* logo */}

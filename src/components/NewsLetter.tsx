@@ -8,13 +8,34 @@ const NewsLetter: FC<Props> = (): JSX.Element => {
     <section className="section-sm lg:section-lg min-h-[520px] bg-green">
       <div className="container mx-auto">
         {/* text */}
-        <div className="rounded-lg border-[8px] border-green-300 pt-[70px] pb-12 text-center">
-          <h4 className="mb-[14px] text-[26px] font-bold text-white">Subscribe Our Newsletter</h4>
-          <p className="mb-12 text-green-200">
+        <div
+          className="rounded-lg border-[8px] border-green-300 pt-[70px] pb-12 text-center"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-offset="300"
+        >
+          <h4
+            className="mb-[14px] text-[26px] font-bold text-white"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-offset="300"
+          >
+            Subscribe Our Newsletter
+          </h4>
+          <p
+            className="mb-12 text-green-200"
+            data-aos="fade-up"
+            data-aos-delay="800"
+            data-aos-offset="300"
+          >
             Subscribe our newsletter for further updates about us
           </p>
           {/* form */}
-          <form className="relative mx-auto flex max-w-[752px] flex-col gap-y-6 gap-x-4 p-4 lg:flex-row lg:p-0">
+          <form
+            className="relative mx-auto flex max-w-[752px] flex-col gap-y-6 gap-x-4 p-4 lg:flex-row lg:p-0"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+          >
             <div className="relative flex w-full">
               {/* icon */}
               <div className="absolute left-2 flex h-full w-12 items-center justify-center text-2xl text-green-300">
