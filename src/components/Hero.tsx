@@ -18,14 +18,18 @@ const Hero: React.FC = (): JSX.Element => {
         <Header />
         <div className="flex flex-col items-center pt-32 lg:flex-row lg:items-start">
           <div className="flex-1 lg:mt-12">
-            <h1 className="h1 mb-3 lg:mb-[22px]">
+            <h1 className="h1 mb-3 lg:mb-[22px]" data-aos="fade-down" data-aos-delay="500">
               Yoga to <br /> Realease Stress
             </h1>
-            <p className="mb-6 max-w-[480px] lg:mb-12 lg:text-lg">
+            <p
+              className="mb-6 max-w-[480px] lg:mb-12 lg:text-lg"
+              data-aos="fade-down"
+              data-aos-delay="600"
+            >
               Yoga is away of life, rather than chore. Counteract the stresses of modern life by
               becoming more mindful and compassionate.
             </p>
-            <div className="mb-12 space-x-4">
+            <div className="mb-12 space-x-4" data-aos="fade-down" data-aos-delay="700">
               <button className="btn btn-sm lg:btn-lg btn-orange">Get Started</button>
               <button
                 className={classNames(
@@ -38,7 +42,11 @@ const Hero: React.FC = (): JSX.Element => {
             </div>
           </div>
           <div className="w-full bg-circle bg-cover lg:w-auto lg:bg-none">
-            <div className="flex flex-1 justify-center lg:justify-end">
+            <div
+              className="flex flex-1 justify-center lg:justify-end"
+              data-aos="fade-left"
+              data-aos-delay="600"
+            >
               <div className="h-[234px] w-[234px] lg:mt-0 lg:h-[744px] lg:w-[504px]">
                 <Parallax
                   className="h-full w-full p-28 lg:p-16"

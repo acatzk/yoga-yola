@@ -6,9 +6,18 @@ const Contact: FC<Props> = (): JSX.Element => {
   return (
     <section className="section-sm lg:pt-[250px]">
       <div className="container mx-auto">
-        <div className="flex min-h-[600px] flex-col bg-contact bg-cover bg-no-repeat lg:flex-row lg:gap-x-[74px]">
+        <div
+          className="flex min-h-[600px] flex-col bg-contact bg-cover bg-no-repeat lg:flex-row lg:gap-x-[74px]"
+          data-aos="zoom"
+          data-aos-offset="400"
+        >
           {/* text */}
-          <div className="flex flex-1 flex-col justify-center pl-8">
+          <div
+            className="flex flex-1 flex-col justify-center pl-8"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-offset="300"
+          >
             <h2 className="h2 mb-3lg:mb-7">Get in Touch With Us for Yoga Course.</h2>
             <p className="mb-7 lg:mb-0">
               Get in touch with use for any kind of help. We are here to give you the best and also
@@ -16,7 +25,12 @@ const Contact: FC<Props> = (): JSX.Element => {
             </p>
           </div>
           {/* form */}
-          <form className="flex max-h-[600px] flex-1 flex-col gap-y-5 rounded-[20px] bg-white p-5 text-white shadow-primary lg:-mt-20">
+          <form
+            className="flex max-h-[600px] flex-1 flex-col gap-y-5 rounded-[20px] bg-white p-5 text-white shadow-primary lg:-mt-20"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-offset="500"
+          >
             <input
               className="form-control"
               placeholder="First name"
